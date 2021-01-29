@@ -60,7 +60,6 @@ plugins:
 author:
   name   : *me
   avatar : "https://upload.wikimedia.org/wikipedia/commons/1/10/Vlad_Tepes_001.jpg" #"/assets/images/dracula.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -68,15 +67,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
