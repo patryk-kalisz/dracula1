@@ -7,10 +7,10 @@ eval "$(ssh-agent -s)"
 
 ######## Run notebook/word converter ########
 # word converter using pandoc
-/fastpages/word2post.sh
+/dracula/word2post.sh
 # notebook converter using nbdev
-cp /fastpages/settings.ini .
-python /fastpages/nb2post.py
+cp /dracula/settings.ini .
+python /dracula/nb2post.py
 
 
 ######## Optionally save files and build GitHub Pages ########
@@ -38,10 +38,10 @@ if [[ "$INPUT_BOOL_SAVE_MARKDOWN" == "true" ]];then
 
     # Optionally save intermediate markdown
     if [[ "$INPUT_BOOL_SAVE_MARKDOWN" == "true" ]]; then
-        git pull fastpages-origin "${GITHUB_REF}" --ff-only
+        git pull dracula-origin "${GITHUB_REF}" --ff-only
         git add _posts
         git commit -m "[Bot] Update $INPUT_FORMAT blog posts" --allow-empty
-        git push fastpages-origin HEAD:"$GITHUB_REF"
+        git push dracula-origin HEAD:"$GITHUB_REF"
     fi
 fi
 
