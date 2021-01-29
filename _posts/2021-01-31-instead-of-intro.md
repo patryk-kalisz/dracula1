@@ -10,3 +10,5 @@ tags:
 
 Let's assume we have interesting data that have already been preprocessed creating neat outputs.
 
+"/assets/images/project_overview.drawio"
+
