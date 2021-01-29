@@ -13,7 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Dracula Project  
+me: &var "Patryk Kalisz"
+project: &var "The Dracula Project"
+
+
+title: *project  
 email: patryk.kalisz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exploration of limit order book statistical properties with python.
@@ -55,7 +59,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Patryk Kalisz"
+  name   : *me
   avatar : "https://upload.wikimedia.org/wikipedia/commons/1/10/Vlad_Tepes_001.jpg" #"/assets/images/dracula.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
