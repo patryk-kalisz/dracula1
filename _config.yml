@@ -55,7 +55,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Last"
   avatar : "/assets/images/dracula.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
