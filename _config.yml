@@ -16,8 +16,7 @@
 me: &var "Patryk Kalisz"
 project: &var "The Dracula Project"
 
-
-title: *project  
+title: *project
 email: patryk.kalisz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exploration of limit order book statistical properties with python.
