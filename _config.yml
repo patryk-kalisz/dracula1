@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Patryk Kalisz"
-  avatar : ""
+  avatar : "/assets/dracula.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "GitHub"
